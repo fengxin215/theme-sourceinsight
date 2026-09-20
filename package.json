@@ -1,0 +1,18 @@
+{
+  "name": "theme-sourceinsight",
+  "displayName": "Source Insight Light",
+  "description": "Ported from Source Insight 4 config_styles.xml",
+  "version": "0.0.1",
+  "publisher": "fengx",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Source Insight Light",
+        "uiTheme": "vs",
+        "path": "./themes/source-insight-light.json"
+      }
+    ]
+  }
+}
